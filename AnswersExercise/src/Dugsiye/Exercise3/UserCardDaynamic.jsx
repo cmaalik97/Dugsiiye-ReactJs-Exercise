@@ -1,3 +1,4 @@
+// function UserCardDaynamic({name="UNKNOW" , email="Unknow"}){
 function UserCardDaynamic({name="UNKNOW" , email="Unknow"}){
     return <div>
         <h1>Name: {name}</h1>
