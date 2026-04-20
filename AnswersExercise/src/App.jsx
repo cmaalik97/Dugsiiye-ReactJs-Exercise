@@ -2,7 +2,10 @@
 // import Blog from "./Dugsiye/Exercise2/Blog";
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
-import HookEx1 from "./Dugsiye/Learning/HookEx1";
+// import WindowResize from "./Dugsiye/Learning/WindowResize";
+
+import TitlChange from "./Dugsiye/Exercise6/TitleChange";
+// import HookEx1 from "./Dugsiye/Learning/HookEx1";
 
 // import CardShop from "./Dugsiye/Learning/CardShop";
 
@@ -42,7 +45,10 @@ function App(){
    {/* <TodoList/> */}
     {/* <Shopping/> */}
     {/* <CardShop/> */}
-    <HookEx1/>
+    {/* <HookEx1/> */}
+    <TitlChange/>
+
+    {/* <WindowResize/> */}
   </>
 }
 export default App;
