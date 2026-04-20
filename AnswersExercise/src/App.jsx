@@ -2,13 +2,22 @@
 // import Blog from "./Dugsiye/Exercise2/Blog";
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
-import StateEx4 from "./Dugsiye/Learning/StateEx4";
+import HookEx1 from "./Dugsiye/Learning/HookEx1";
+
+// import CardShop from "./Dugsiye/Learning/CardShop";
+
+// import Shopping from "./Dugsiye/Exercise5/Shopping";
+
+// import StateEx4 from "./Dugsiye/Learning/StateEx4";
+// import StateEx5 from "./Dugsiye/Learning/StateEx5";
+// import TodoList from "./Dugsiye/Learning/TodoList";
 
 // import StateEx2 from "./Dugsiye/Learning/StateEx2";
 // import ToggoleButton from "./Dugsiye/Exercise4/ToggleButton";
 // import StateEx3 from "./Dugsiye/Learning/StateEx3";
 
 //  import StateEx1 from "./Dugsiye/Learning/StateEx1.jsx";
+
 
 
 function App(){
@@ -28,8 +37,12 @@ function App(){
     {/* <StateEx2/> */}
    {/* <StateEx3/> */}
    {/* <ToggoleButton/> */}
-   <StateEx4/>
-
+   {/* <StateEx4/> */}
+   {/* <StateEx5/> */}
+   {/* <TodoList/> */}
+    {/* <Shopping/> */}
+    {/* <CardShop/> */}
+    <HookEx1/>
   </>
 }
 export default App;
