@@ -4,7 +4,8 @@
 
 // import WindowResize from "./Dugsiye/Learning/WindowResize";
 
-import TitlChange from "./Dugsiye/Exercise6/TitleChange";
+// import TitlChange from "./Dugsiye/Exercise6/TitleChange";
+import MouseTracker from "./Dugsiye/Exercise7/MouseTracker";
 // import HookEx1 from "./Dugsiye/Learning/HookEx1";
 
 // import CardShop from "./Dugsiye/Learning/CardShop";
@@ -46,9 +47,11 @@ function App(){
     {/* <Shopping/> */}
     {/* <CardShop/> */}
     {/* <HookEx1/> */}
-    <TitlChange/>
+    {/* <TitlChange/> */}
 
     {/* <WindowResize/> */}
+
+    <MouseTracker/>
   </>
 }
 export default App;
