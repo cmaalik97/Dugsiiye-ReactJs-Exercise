@@ -2,7 +2,9 @@
 // import Blog from "./Dugsiye/Exercise2/Blog";
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
-import Timing from "./Dugsiye/Learning/Timing";
+import Countdown from "./Dugsiye/Exercise8/Countdown";
+
+// import Timing from "./Dugsiye/Learning/Timing";
 
 // import WindowResize from "./Dugsiye/Learning/WindowResize";
 
@@ -54,7 +56,8 @@ function App(){
     {/* <WindowResize/> */}
 
     {/* <MouseTracker/> */}
-    <Timing/>
+    {/* <Timing/> */}
+    <Countdown/>
   </>
 }
 export default App;
