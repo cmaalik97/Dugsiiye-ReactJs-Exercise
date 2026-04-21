@@ -2,10 +2,12 @@
 // import Blog from "./Dugsiye/Exercise2/Blog";
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
+import Timing from "./Dugsiye/Learning/Timing";
+
 // import WindowResize from "./Dugsiye/Learning/WindowResize";
 
 // import TitlChange from "./Dugsiye/Exercise6/TitleChange";
-import MouseTracker from "./Dugsiye/Exercise7/MouseTracker";
+// import MouseTracker from "./Dugsiye/Exercise7/MouseTracker";
 // import HookEx1 from "./Dugsiye/Learning/HookEx1";
 
 // import CardShop from "./Dugsiye/Learning/CardShop";
@@ -51,7 +53,8 @@ function App(){
 
     {/* <WindowResize/> */}
 
-    <MouseTracker/>
+    {/* <MouseTracker/> */}
+    <Timing/>
   </>
 }
 export default App;
