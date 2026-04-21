@@ -3,6 +3,7 @@
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
 import Countdown from "./Dugsiye/Exercise8/Countdown";
+import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
 
@@ -57,7 +58,9 @@ function App(){
 
     {/* <MouseTracker/> */}
     {/* <Timing/> */}
-    <Countdown/>
+    {/* <Countdown/> */}
+    <DataFetching/>
+    
   </>
 }
 export default App;
