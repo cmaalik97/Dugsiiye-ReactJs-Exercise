@@ -14,6 +14,7 @@ import ConditonRendering from "./Dugsiye/Learning/ConditionRendering";
 import Notification from "./Dugsiye/Learning/Notification";
 import Toggole from "./Dugsiye/Learning/Toggole";
 import UserLogin from "./Dugsiye/Exercise11/UserLogin";
+import Counter from "./Dugsiye/Exercise12/Counter";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -88,7 +89,8 @@ function App(){
    {/* <Notification message={notification}/> */}
 
    {/* <Toggole/> */}
-   <UserLogin/>
+   {/* <UserLogin/> */}
+   <Counter/>
   </>
 }
 export default App;
