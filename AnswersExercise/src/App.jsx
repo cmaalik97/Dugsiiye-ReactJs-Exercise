@@ -3,6 +3,8 @@
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
 // import Countdown from "./Dugsiye/Exercise8/Countdown";
+import { useState } from "react";
+import UserList from "./Dugsiye/Exercise10/UserList";
 import GithubUsers from "./Dugsiye/Exercise9/GithubUsers";
 import HandlingEmpty from "./Dugsiye/Learning/HandlingEmpty";
 import Revision from "./Dugsiye/Learning/Revision";
@@ -36,6 +38,7 @@ import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
 
 function App(){
   
+  const users= [{name:"abdimalik" , id:1 , email:'cmaalik@gmail.com'} , {name: "Ali faarax" , id:2 , email: "aligeesey@gmail.com"}]
   return <>
   {/* <UserCard/> */}
   {/* <Blog/> */}
@@ -69,7 +72,9 @@ function App(){
     {/* <Revision/> */}
     {/* <RevisionEx5/> */}
     {/* <RevisionStopWatch/> */}
-    <HandlingEmpty/>
+    {/* <HandlingEmpty/> */}
+
+    <UserList users={users} />
 
   </>
 }
