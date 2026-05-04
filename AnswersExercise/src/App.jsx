@@ -16,6 +16,7 @@ import Toggole from "./Dugsiye/Learning/Toggole";
 import UserLogin from "./Dugsiye/Exercise11/UserLogin";
 import Counter from "./Dugsiye/Exercise12/Counter";
 import Reduce from "./Dugsiye/Learning/Reduce";
+import DoubleCounter from "./Dugsiye/Exercise13/DoubleCounter";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -92,7 +93,8 @@ function App(){
    {/* <Toggole/> */}
    {/* <UserLogin/> */}
    {/* <Counter/> */}
-   <Reduce/>
+   {/* <Reduce/> */}
+   <DoubleCounter/>
 
   </>
 }
