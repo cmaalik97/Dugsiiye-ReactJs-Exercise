@@ -64,10 +64,10 @@ function App(){
     {/* <Timing/> */}
     {/* <Countdown/> */}
     {/* <DataFetching/> */}
-    {/* <GithubUsers/> */}
+    <GithubUsers/>
     {/* <Revision/> */}
     {/* <RevisionEx5/> */}
-    <RevisionStopWatch/>
+    {/* <RevisionStopWatch/> */}
 
   </>
 }
