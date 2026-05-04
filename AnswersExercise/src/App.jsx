@@ -15,6 +15,7 @@ import Notification from "./Dugsiye/Learning/Notification";
 import Toggole from "./Dugsiye/Learning/Toggole";
 import UserLogin from "./Dugsiye/Exercise11/UserLogin";
 import Counter from "./Dugsiye/Exercise12/Counter";
+import Reduce from "./Dugsiye/Learning/Reduce";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -90,7 +91,9 @@ function App(){
 
    {/* <Toggole/> */}
    {/* <UserLogin/> */}
-   <Counter/>
+   {/* <Counter/> */}
+   <Reduce/>
+
   </>
 }
 export default App;
