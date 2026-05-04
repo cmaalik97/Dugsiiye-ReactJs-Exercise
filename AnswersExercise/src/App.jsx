@@ -4,6 +4,7 @@
 
 // import Countdown from "./Dugsiye/Exercise8/Countdown";
 import GithubUsers from "./Dugsiye/Exercise9/GithubUsers";
+import HandlingEmpty from "./Dugsiye/Learning/HandlingEmpty";
 import Revision from "./Dugsiye/Learning/Revision";
 import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
 import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
@@ -64,10 +65,11 @@ function App(){
     {/* <Timing/> */}
     {/* <Countdown/> */}
     {/* <DataFetching/> */}
-    <GithubUsers/>
+    {/* <GithubUsers/> */}
     {/* <Revision/> */}
     {/* <RevisionEx5/> */}
     {/* <RevisionStopWatch/> */}
+    <HandlingEmpty/>
 
   </>
 }
