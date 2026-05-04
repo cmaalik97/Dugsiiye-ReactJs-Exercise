@@ -12,6 +12,8 @@ import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
 import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
 import ConditonRendering from "./Dugsiye/Learning/ConditionRendering";
 import Notification from "./Dugsiye/Learning/Notification";
+import Toggole from "./Dugsiye/Learning/Toggole";
+import UserLogin from "./Dugsiye/Exercise11/UserLogin";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -45,7 +47,7 @@ function App(){
 
   const [Login , setIslogin]=useState(false)
 
-  const [notification , setNotification]=useState(["hello" , "HI"])
+  const [notification , setNotification]=useState([])
   return <>
   {/* <UserCard/> */}
   {/* <Blog/> */}
@@ -83,7 +85,10 @@ function App(){
 
     {/* <UserList users={users} /> */}
     {/* <ConditonRendering cmalik={Login}/> */}
-   <Notification message={notification}/>
+   {/* <Notification message={notification}/> */}
+
+   {/* <Toggole/> */}
+   <UserLogin/>
   </>
 }
 export default App;
