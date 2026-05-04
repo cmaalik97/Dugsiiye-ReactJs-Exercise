@@ -10,6 +10,8 @@ import HandlingEmpty from "./Dugsiye/Learning/HandlingEmpty";
 import Revision from "./Dugsiye/Learning/Revision";
 import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
 import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
+import ConditonRendering from "./Dugsiye/Learning/ConditionRendering";
+import Notification from "./Dugsiye/Learning/Notification";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -39,6 +41,11 @@ import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
 function App(){
   
   const users= [{name:"abdimalik" , id:1 , email:'cmaalik@gmail.com'} , {name: "Ali faarax" , id:2 , email: "aligeesey@gmail.com"}]
+
+
+  const [Login , setIslogin]=useState(false)
+
+  const [notification , setNotification]=useState(["hello" , "HI"])
   return <>
   {/* <UserCard/> */}
   {/* <Blog/> */}
@@ -74,8 +81,9 @@ function App(){
     {/* <RevisionStopWatch/> */}
     {/* <HandlingEmpty/> */}
 
-    <UserList users={users} />
-
+    {/* <UserList users={users} /> */}
+    {/* <ConditonRendering cmalik={Login}/> */}
+   <Notification message={notification}/>
   </>
 }
 export default App;
