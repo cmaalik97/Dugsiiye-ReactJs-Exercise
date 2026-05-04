@@ -2,8 +2,12 @@
 // import Blog from "./Dugsiye/Exercise2/Blog";
 // import UserCardDaynamic from "./Dugsiye/Exercise3/UserCardDaynamic";
 
-import Countdown from "./Dugsiye/Exercise8/Countdown";
-import DataFetching from "./Dugsiye/Learning/DataFetching";
+// import Countdown from "./Dugsiye/Exercise8/Countdown";
+import GithubUsers from "./Dugsiye/Exercise9/GithubUsers";
+import Revision from "./Dugsiye/Learning/Revision";
+import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
+import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
+// import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
 
@@ -59,8 +63,12 @@ function App(){
     {/* <MouseTracker/> */}
     {/* <Timing/> */}
     {/* <Countdown/> */}
-    <DataFetching/>
-    
+    {/* <DataFetching/> */}
+    {/* <GithubUsers/> */}
+    {/* <Revision/> */}
+    {/* <RevisionEx5/> */}
+    <RevisionStopWatch/>
+
   </>
 }
 export default App;
