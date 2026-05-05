@@ -18,6 +18,7 @@ import Counter from "./Dugsiye/Exercise12/Counter";
 import Reduce from "./Dugsiye/Learning/Reduce";
 import DoubleCounter from "./Dugsiye/Exercise13/DoubleCounter";
 import TodoAppWithReduce from "./Dugsiye/Learning/todoAppWithReduce";
+import Registration from "./Dugsiye/Exercise14/Registration";
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -96,7 +97,8 @@ function App(){
    {/* <Counter/> */}
    {/* <Reduce/> */}
    {/* <DoubleCounter/> */}
-   <TodoAppWithReduce/>
+   {/* <TodoAppWithReduce/> */}
+   <Registration/>
 
   </>
 }
