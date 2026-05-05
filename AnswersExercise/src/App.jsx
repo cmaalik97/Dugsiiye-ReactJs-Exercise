@@ -4,21 +4,29 @@
 
 // import Countdown from "./Dugsiye/Exercise8/Countdown";
 import { useState } from "react";
-import UserList from "./Dugsiye/Exercise10/UserList";
-import GithubUsers from "./Dugsiye/Exercise9/GithubUsers";
-import HandlingEmpty from "./Dugsiye/Learning/HandlingEmpty";
-import Revision from "./Dugsiye/Learning/Revision";
-import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
-import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
-import ConditonRendering from "./Dugsiye/Learning/ConditionRendering";
-import Notification from "./Dugsiye/Learning/Notification";
-import Toggole from "./Dugsiye/Learning/Toggole";
-import UserLogin from "./Dugsiye/Exercise11/UserLogin";
-import Counter from "./Dugsiye/Exercise12/Counter";
-import Reduce from "./Dugsiye/Learning/Reduce";
-import DoubleCounter from "./Dugsiye/Exercise13/DoubleCounter";
-import TodoAppWithReduce from "./Dugsiye/Learning/todoAppWithReduce";
-import Registration from "./Dugsiye/Exercise14/Registration";
+
+import LanguageContext from "./Dugsiye/Exercise15/LanguageContext";
+import Greeting from "./Dugsiye/Exercise15/Greeting";
+// import UserContext from "./Context";
+// import TheamContext from "./TheamContext";
+// import Head from "./Head";
+// import TheamedComponent from "./TheamedComponent";
+// import UserList from "./Dugsiye/Exercise10/UserList";
+// import GithubUsers from "./Dugsiye/Exercise9/GithubUsers";
+// import HandlingEmpty from "./Dugsiye/Learning/HandlingEmpty";
+// import Revision from "./Dugsiye/Learning/Revision";
+// import RevisionEx5 from "./Dugsiye/Learning/RevisionEx5";
+// import RevisionStopWatch from "./Dugsiye/Learning/RevisionStopWatch";
+// import ConditonRendering from "./Dugsiye/Learning/ConditionRendering";
+// import Notification from "./Dugsiye/Learning/Notification";
+// import Toggole from "./Dugsiye/Learning/Toggole";
+// import UserLogin from "./Dugsiye/Exercise11/UserLogin";
+// import Counter from "./Dugsiye/Exercise12/Counter";
+// import Reduce from "./Dugsiye/Learning/Reduce";
+// import DoubleCounter from "./Dugsiye/Exercise13/DoubleCounter";
+// import TodoAppWithReduce from "./Dugsiye/Learning/todoAppWithReduce";
+// import Registration from "./Dugsiye/Exercise14/Registration";
+
 // import DataFetching from "./Dugsiye/Learning/DataFetching";
 
 // import Timing from "./Dugsiye/Learning/Timing";
@@ -47,13 +55,45 @@ import Registration from "./Dugsiye/Exercise14/Registration";
 
 function App(){
   
-  const users= [{name:"abdimalik" , id:1 , email:'cmaalik@gmail.com'} , {name: "Ali faarax" , id:2 , email: "aligeesey@gmail.com"}]
+  // const users= [{name:"abdimalik" , id:1 , email:'cmaalik@gmail.com'} , {name: "Ali faarax" , id:2 , email: "aligeesey@gmail.com"}]
 
 
-  const [Login , setIslogin]=useState(false)
+  // const [Login , setIslogin]=useState(false)
 
-  const [notification , setNotification]=useState([])
-  return <>
+  // const [notification , setNotification]=useState([])
+
+
+  // useContext aan galnay iska firi
+  // *first create in another place 
+  // *the provider in parent
+  // *then consume
+  // example 1 of useContext
+  // const [user, setUser]=useState({name:"abdimalik", role: "Developer"})
+  // example 2 of useContext
+  // const [theme, setTheam]=useState('light')
+  // const togolTheme=()=>{
+  //   setTheam((prev)=> (prev === "light" ? "dark" : "light"))
+  // }
+
+  // this exercise 1 of useContent
+  const [language , setLanguage]=useState("en")
+  const toggol=()=>{
+    setLanguage((prev)=> (prev === "en" ? "es": "en"))
+  }
+
+  return ( 
+    <LanguageContext.Provider value={language}>
+      <button onClick={toggol}>Switch to {language === "en" ? "Spanish" :"English"}</button>
+      
+      <Greeting/>
+    {/* //  <TheamContext.Provider value={theme}>
+    //   <button 
+    //   onClick={togolTheme}
+    //   >Switch to {theme === "light" ? "dark" : "light"}</button>
+    //   <TheamedComponent/>
+    // <UserContext.Provider value={user}> */}
+   
+
   {/* <UserCard/> */}
   {/* <Blog/> */}
   
@@ -98,8 +138,16 @@ function App(){
    {/* <Reduce/> */}
    {/* <DoubleCounter/> */}
    {/* <TodoAppWithReduce/> */}
-   <Registration/>
+   {/* <Registration/> */}
 
-  </>
+   
+    {/* <Head/> */}
+  
+  {/* //  </UserContext> */}
+
+
+  {/* //  </TheamContext.Provider> */}
+ </LanguageContext.Provider>
+  )
 }
 export default App;
