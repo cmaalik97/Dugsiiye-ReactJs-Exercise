@@ -4,15 +4,16 @@ import ContactForm from './Dugsiye/Exercise17/ContactForm'
 import TailwindCss from './Dugsiye/Learning/TailwindCss'
 import Receipe from './Dugsiye/Learning/Project1/Receipe'
 import ContactsApp from './Dugsiye/Exercise18/ContactsApp'
+import { TodoApp2 } from './Dugsiye/Exercise19/TodoApp'
 
 function App2() {
   return (
     <div>
-      {/* <TodoApp/> */}
+      <TodoApp2/>
       {/* <ContactForm/> */}
       {/* <TailwindCss/> */}
       {/* <Receipe/> */}
-      <ContactsApp/>
+      {/* <ContactsApp/> */}
     </div>
   )
 }
