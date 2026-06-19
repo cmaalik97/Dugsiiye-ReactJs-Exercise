@@ -9,7 +9,8 @@ import { TodoApp2 } from './Dugsiye/Exercise19/TodoApp'
 function App2() {
   return (
     <div>
-      <TodoApp2/>
+      <Receipe/>
+      {/* <TodoApp2/> */}
       {/* <ContactForm/> */}
       {/* <TailwindCss/> */}
       {/* <Receipe/> */}
