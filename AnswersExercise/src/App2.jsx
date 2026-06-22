@@ -7,11 +7,15 @@ import ContactsApp from './Dugsiye/Exercise18/ContactsApp'
 import { TodoApp2 } from './Dugsiye/Exercise19/TodoApp'
 import StudentDashboard from './Dugsiye/Exercise20/StudentDashboard'
 import Toggol from './Dugsiye/Learning/UseRef/Toggol'
+import Multiple from './Dugsiye/Learning/Controlling/Multiple'
+import Registeration from './Dugsiye/Exercise22/Registeration'
 
 function App2() {
   return (
     <div>
-      <Toggol/>
+      <Registeration/>
+      {/* <Multiple/> */}
+      {/* <Toggol/> */}
       {/* <StudentDashboard/> */}
       {/* <Receipe/> */}
       {/* <TodoApp2/> */}
