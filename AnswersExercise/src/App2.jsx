@@ -1,10 +1,12 @@
 import React from 'react'
 
 import TodoList from './Dugsiye/Exercise20/TodoList'
+import StudentDashboard from './Dugsiye/Exercise21/StudentDashboard'
 function App2() {
   return (
     <div>
-      <TodoList/>
+      <StudentDashboard/>
+      {/* <TodoList/> */}
 
       {/* <Validation/> */}
       {/* <Registeration/> */}
