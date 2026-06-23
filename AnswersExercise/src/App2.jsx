@@ -4,10 +4,12 @@ import TodoList from './Dugsiye/Exercise20/TodoList'
 import StudentDashboard from './Dugsiye/Exercise21/StudentDashboard'
 import Validation from './Dugsiye/Learning/Validation'
 import DeveloperApplication from './Dugsiye/Exercise23/DeveloperApplication'
+import Form from './Dugsiye/Learning/useForm/Form'
 function App2() {
   return (
     <div>
-      <DeveloperApplication/>
+      <Form/>
+      {/* <DeveloperApplication/> */}
       {/* <Validation/> */}
       {/* <StudentDashboard/> */}
       {/* <TodoList/> */}
