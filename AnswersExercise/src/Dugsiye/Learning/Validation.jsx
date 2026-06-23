@@ -24,8 +24,11 @@ function Validation() {
     const handelSubmit=(e)=>{
         e.preventDefault()
         const validationErrors=validate()
-        if(Object.keys(validationErrors).length===0){
-            // Submit form
+        if(Object.keys(validationErrors).length===0){ 
+            // Submit form   object.keys username and email
+            //also note the object.keys(validationErrors) will return an array of the keys in the validationErrors object, which will be empty if there are no errors.
+            console.log('Form submitted:', formData)
+            console.log("object.keys", Object.keys(validationErrors))
         } else {
             setErrors(validationErrors)
         }
@@ -43,12 +46,35 @@ function Validation() {
     }
   return (
     <div>
-        <form onSubmit={handelSubmit}>
-            <input type="text" name='username' value={formData.username} onChange={handelChange} placeholder='Enter your username'/>
-            {errors.username && <span className="text-red-500 border border-red-500">{errors.username}</span>}
-           <input type="email" name='email' value={formData.email} onChange={handelChange} placeholder='Enter your email'/>
-           {errors.email && <span className="text-red-500 border border-red-500">{errors.email}</span>}
-           <button type='submit'>Submit</button>
+        <form onSubmit={handelSubmit} className="flex flex-col gap-2 w-1/3 mx-auto mt-10">
+
+            <input 
+            className="border border-black rounded px-2 py-1"
+            type="text" 
+            name='username' 
+            value={formData.username} 
+            onChange={handelChange} 
+            placeholder='Enter your username'/>
+
+            {errors.username && 
+            <span className="text-red-500 border border-red-500">
+                {errors.username}
+                </span>}
+
+            <br/>
+           <input 
+           className="border border-black rounded px-2 py-1"
+           type="email" 
+           name='email' 
+           value={formData.email} 
+           onChange={handelChange} 
+           placeholder='Enter your email'/>
+
+           {errors.email && 
+           <span className="text-red-500 border border-red-500">
+            {errors.email}</span>}
+           <br/>
+           <button type='submit' className="bg-blue-500 mt-2 text-white px-2 py-2 rounded">Submit</button>
 
         </form>
     </div>
