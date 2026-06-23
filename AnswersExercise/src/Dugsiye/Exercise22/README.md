@@ -1,2 +1,2 @@
 # Exercise 22
-# Handling input and form
+# Handling multiple  inputs and form
