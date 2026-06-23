@@ -5,10 +5,12 @@ import StudentDashboard from './Dugsiye/Exercise21/StudentDashboard'
 import Validation from './Dugsiye/Learning/Validation'
 import DeveloperApplication from './Dugsiye/Exercise23/DeveloperApplication'
 import Form from './Dugsiye/Learning/useForm/Form'
+import StudentenRegister from './Dugsiye/Exercise24/StudentenRegister'
 function App2() {
   return (
     <div>
-      <Form/>
+      <StudentenRegister/>
+      {/* <Form/> */}
       {/* <DeveloperApplication/> */}
       {/* <Validation/> */}
       {/* <StudentDashboard/> */}
